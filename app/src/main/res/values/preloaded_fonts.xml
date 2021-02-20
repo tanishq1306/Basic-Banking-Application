@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/armata</item>
+        <item>@font/averia_serif_libre_light</item>
+        <item>@font/cutive</item>
+        <item>@font/ubuntu</item>
+        <item>@font/ubuntu_light</item>
+        <item>@font/ubuntu_mono</item>
+    </array>
+</resources>

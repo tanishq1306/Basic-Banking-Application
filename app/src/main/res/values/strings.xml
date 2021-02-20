@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Banking System</string>
+    <string name="banking_system_app">Banking System App</string>
+    <string name="all_users">All Users</string>
+    <string name="all_transactions">All Transactions</string>
+</resources>

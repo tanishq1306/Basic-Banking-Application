@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_screen"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI.HomeScreen">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/bank_logo"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="250dp"
+        android:src="@drawable/bank_logo"/>
+
+    <TextView
+        android:id="@+id/bank_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/averia_serif_libre_light"
+        android:text="@string/banking_system_app"
+        android:textColor="#DD433C55"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/all_users"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="80dp"
+        android:backgroundTint="#0099ff"
+        android:onClick="showAllUsers"
+        android:textSize="16sp"
+        android:fontFamily="@font/averia_serif_libre_light"
+        android:text="@string/all_users"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/all_transactions"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#0099ff"
+        android:text="@string/all_transactions"
+        android:textStyle="bold"
+        android:onClick="showAllTransactions"
+        android:textSize="16sp"
+        android:fontFamily="@font/averia_serif_libre_light"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
