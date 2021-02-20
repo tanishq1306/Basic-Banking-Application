@@ -38,9 +38,11 @@ public class UserData extends AppCompatActivity {
         phoneNo = findViewById(R.id.phone_no);
         transferMoney = findViewById(R.id.transfer_money);
 
+        // Getting the intent
         Intent intent = getIntent();
         Bundle extras = intent.getExtras();
 
+        // Extracting the data
         if (extras != null){
             name.setText(extras.getString("NAME"));
             accountNo.setText(String.valueOf(extras.getInt("ACCOUNT_NO")));
@@ -83,6 +85,7 @@ public class UserData extends AppCompatActivity {
         dialog.getButton(AlertDialog.BUTTON_POSITIVE).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                // Checking whether amount entered is correct or not
                 int currentBalance = Integer.parseInt(String.valueOf(balance.getText()));
 
                 if (mAmount.getText().toString().isEmpty()) {

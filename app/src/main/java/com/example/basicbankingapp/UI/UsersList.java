@@ -59,11 +59,6 @@ public class UsersList extends AppCompatActivity {
         recyclerView.setAdapter(myAdapter);
     }
 
-    @Override
-    protected void onStart() {
-        super.onStart();
-    }
-
     private void displayDatabaseInfo() {
         userArrayList.clear();
 

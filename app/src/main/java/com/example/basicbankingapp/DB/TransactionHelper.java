@@ -42,12 +42,6 @@ public class TransactionHelper extends SQLiteOpenHelper {
         }
     }
 
-    public Cursor readTransferData() {
-        SQLiteDatabase db = this.getWritableDatabase();
-        Cursor cursor = db.rawQuery("select * from " + TransactionEntry.TABLE_NAME , null);
-        return cursor;
-    }
-
     public boolean insertTransferData (String fromName, String toName, String amount, int status) {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();

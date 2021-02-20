@@ -68,10 +68,4 @@ public class SendToUserAdapter extends RecyclerView.Adapter<SendToUserAdapter.Vi
     public interface OnUserListener {
         void onUserClick(int position);
     }
-
-    public void setFilter(ArrayList<User> newList){
-        userArrayList = new ArrayList<>();
-        userArrayList.addAll(newList);
-        notifyDataSetChanged();
-    }
 }

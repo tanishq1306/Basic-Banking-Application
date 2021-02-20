@@ -8,11 +8,6 @@ public class User {
     private int balance;
     private String email;
 
-    public User(String name, int balance) {
-        this.name = name;
-        this.balance = balance;
-    }
-
     public User(String name, int accountNumber, String phoneNumber, String ifscCode, int balance, String email) {
         this.name = name;
         this.accountNumber = accountNumber;

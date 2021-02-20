@@ -57,9 +57,6 @@ public class SendToUserList extends AppCompatActivity implements SendToUserAdapt
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd-MMM-yyyy, hh:mm a");
         String date_and_time = simpleDateFormat.format(calendar.getTime());
 
-        date = "d";
-        time = "e";
-
         // Get Intent
         Bundle bundle = getIntent().getExtras();
         if (bundle != null) {

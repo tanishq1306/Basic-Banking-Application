@@ -20,6 +20,7 @@ public class UserHelper extends SQLiteOpenHelper {
     /**
      * Database version. If you change the database schema, you must increment the database version.*/
     private static final int DATABASE_VERSION = 1;
+
     public UserHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
@@ -75,13 +76,6 @@ public class UserHelper extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getWritableDatabase();
         Cursor cursor = db.rawQuery("select * from " + UserEntry.TABLE_NAME + " where " +
                                         UserEntry.COLUMN_USER_ACCOUNT_NUMBER + " = " + accountNo, null);
-        return cursor;
-    }
-
-    public Cursor readSelectUserData (int accountNo) {
-        SQLiteDatabase db = this.getWritableDatabase();
-        Cursor cursor = db.rawQuery("select * from " + UserEntry.TABLE_NAME + " except select * from " + UserEntry.TABLE_NAME + " where " +
-                            UserEntry.COLUMN_USER_ACCOUNT_NUMBER + " = " + accountNo, null);
         return cursor;
     }
 
