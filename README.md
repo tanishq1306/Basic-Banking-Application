@@ -4,12 +4,15 @@
 * Banking System App which keeps track of its user's and their transaction history.
 * Uses MYSQLite for Database storage.
 
-
 ## Screenshots!
-### Homescreen 
-<img src="https://github.com/tanishq1306/BasicBankingApp/blob/master/ss/Home%20screen.jpg" width ="250px" height ="450px">
 
-### Users List
+### Design Layout 
+<img src="https://github.com/tanishq1306/BasicBankingApp/blob/master/ss/Design%20Layout%20and%20WireFrame.PNG">
+
+### Homescreen 
+<img src="https://github.com/tanishq1306/BasicBankingApp/blob/master/ss/Home%20screen.jpg" width ="250px" height ="450px"> 
+
+### Users List 
 <img src="https://github.com/tanishq1306/BasicBankingApp/blob/master/ss/Select%20User%20Account.jpg" width ="250px" height ="450px">
 
 ### Users Data
