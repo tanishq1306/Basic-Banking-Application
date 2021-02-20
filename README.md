@@ -7,7 +7,7 @@
 ## Screenshots!
 
 ### Design Layout 
-<img src="https://github.com/tanishq1306/BasicBankingApp/blob/master/ss/Design%20Layout%20and%20WireFrame.PNG">
+<img src="https://github.com/tanishq1306/BasicBankingApp/blob/master/ss/Layouts.PNG">
 
 ----------------------------------------
 
