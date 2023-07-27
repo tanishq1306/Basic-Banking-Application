@@ -4,6 +4,10 @@
 * Banking System App which keeps track of its user's and their transaction history.
 * Uses SQLite for Database storage.
 
+## Project Explanation 
+
+[![Project Explanation](https://i.ytimg.com/an_webp/uBfr7uRkRb0/mqdefault_6s.webp?du=3000&sqp=CKufiKYG&rs=AOn4CLDEaYeseJaye-9uPSEjFuf__AjG1w)](https://youtu.be/uBfr7uRkRb0)
+
 ## Screenshots!
 
 ### Design Layout 
@@ -49,8 +53,3 @@
 ### Transaction History Showing Successfull & Cancelled Transactions
 <img src="https://github.com/tanishq1306/BasicBankingApp/blob/master/ss/Transaction%20History.jpeg" width ="250px" height ="450px">
 
-------------------------------------------
-
-
-### Project Explanation 
-Link https://www.youtube.com/watch?v=uBfr7uRkRb0
